@@ -9,7 +9,7 @@ const loadData = programType => cb => {
       entries = entries
         .filter(s => s.programType === programType && s.releaseYear > 2010)
         .slice(0, 22)
-        .sort((a, b) => (a < b ? -1 : 1))
+        .sort((a, b) => (a.title < b.title ? -1 : 1))
         .map(s => ({
           title: s.title,
           imageUrl: s.images["Poster Art"].url
