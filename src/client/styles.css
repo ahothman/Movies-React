@@ -1,0 +1,40 @@
+.container {
+  width: 800px;
+  margin: 0 auto;
+  margin-top: 100px;
+  padding: 20px;
+}
+.post {
+  display: inline-block;
+  width: 200px;
+}
+
+.custom-link {
+  display: inline-block;
+  width: 200px;
+  background-color: #423c3c;
+  height: 300px;
+  margin-left: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+.post-image {
+  width: 150px;
+  height: 200px;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background-color: #4e4a4a;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}

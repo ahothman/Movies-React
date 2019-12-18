@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "lib": ["es6", "DOM"],
+    "jsx": "react",
+    "outDir": "./compiled",
+    "rootDir": "./src",
+    "strict": false,
+    "esModuleInterop": true
+  },
+  "exclude": ["/src/client"]
+}
